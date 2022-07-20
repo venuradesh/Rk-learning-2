@@ -19,7 +19,7 @@ function Course() {
 
   const onNoteClick = () => {
     container.current.classList.add("removClick");
-    navigate(`/course/${courseId}/note`);
+    navigate(`/course/${courseId}/notes`);
   };
 
   useEffect(() => {
