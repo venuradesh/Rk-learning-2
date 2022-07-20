@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-function McqListItem({ details }) {
-  console.log(details);
-
+function McqListItem({ details, onClick }) {
   return (
-    <Container>
+    <Container onClick={onClick}>
       <p>{details.title}</p>
     </Container>
   );
